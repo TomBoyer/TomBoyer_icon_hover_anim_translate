@@ -1,0 +1,19 @@
+{
+  "name": "icon-hover-translate-anim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomBoyer/TomBoyer_icon_hover_anim_translate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomBoyer/TomBoyer_icon_hover_anim_translate/issues"
+  },
+  "homepage": "https://github.com/TomBoyer/TomBoyer_icon_hover_anim_translate#readme"
+}

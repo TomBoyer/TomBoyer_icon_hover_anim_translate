@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #333;
+}
+
+.navigation {
+  position: relative;
+  width: 350px;
+  /* 70*5=350 */
+  height: 70px;
+}
+.navigation ul {
+  display: flex;
+}
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+}
+.navigation ul li a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.navigation ul li a .icon {
+  position: relative;
+  line-height: 75px;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.navigation ul li a .text {
+  position: absolute;
+  bottom: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.3s;
+  transform: scale(0);
+}
+
+.navigation ul li.active a .icon {
+  font-size: 20px;
+  transform: translateY(-6px);
+}
+
+.navigation ul li.active a .text {
+  transform: scale(1);
+}
+
+.navigation ul li:nth-child(1).active ~ .indicator {
+  background-color: #f53b57;
+  box-shadow: 0 15px 25px #f53b5799;
+  transform: translateX(cal(0px));
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+  background-color: #5d62fb;
+  box-shadow: 0 15px 25px #5d62fb99;
+  transform: translateX(cal(70px));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+  background-color: #05c46b;
+  box-shadow: 0 15px 25px #05c46b99;
+  transform: translateX(cal(140px));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator {
+  background-color: #0fbcf9;
+  box-shadow: 0 15px 25px #0fbcf999;
+  transform: translateX(cal(210px));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator {
+  background-color: #ffa801;
+  box-shadow: 0 15px 25px #ffa80199;
+  transform: translateX(cal(280px));
+}
+
+.indicator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */
