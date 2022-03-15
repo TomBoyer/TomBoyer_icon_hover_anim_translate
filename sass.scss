@@ -74,27 +74,27 @@ body{
 .navigation ul li:nth-child(1).active ~ .indicator{
     background-color: #f53b57;
     box-shadow: 0 15px 25px #f53b5799;
-    transform: translateX(cal(70px * 0));
+    transform: translateX(calc(70px * 0));
 }
 .navigation ul li:nth-child(2).active ~ .indicator{
     background-color: #5d62fb;
     box-shadow: 0 15px 25px #5d62fb99;
-    transform: translateX(cal(70px * 1));
+    transform: translateX(calc(70px * 1));
 }
 .navigation ul li:nth-child(3).active ~ .indicator{
     background-color: #05c46b;
     box-shadow: 0 15px 25px #05c46b99;
-    transform: translateX(cal(70px * 2));
+    transform: translateX(calc(70px * 2));
 }
 .navigation ul li:nth-child(4).active ~ .indicator{
     background-color: #0fbcf9;
     box-shadow: 0 15px 25px #0fbcf999;
-    transform: translateX(cal(70px * 3));
+    transform: translateX(calc(70px * 3));
 }
 .navigation ul li:nth-child(5).active ~ .indicator{
     background-color: #ffa801;
     box-shadow: 0 15px 25px #ffa80199;
-    transform: translateX(cal(70px * 4));
+    transform: translateX(calc(70px * 4));
 }
 .indicator{
     position: absolute;
